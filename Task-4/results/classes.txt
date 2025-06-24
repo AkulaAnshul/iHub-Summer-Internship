@@ -1,0 +1,12 @@
+black-camel
+black-elephant
+black-horse
+black-king
+black-pawn
+black-queen
+white-camel
+white-elephant
+white-horse
+white-king
+white-pawn
+white-queen
