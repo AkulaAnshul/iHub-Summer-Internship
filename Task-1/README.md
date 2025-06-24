@@ -1,64 +1,62 @@
-Task 1: YOLOv8 Object Detection and Instance Segmentation
-Problem Statement
-For GNU/Linux box: Create virtual environment, install ultralytics, and test installation with object detection and segmentation examples to verify the trained model can recognize objects and perform segmentation from online images.
+# YOLOv8 Object Detection and Instance Segmentation
 
-Environment Setup
-Operating System: Windows 11 (adapted from GNU/Linux requirements)
+## Problem Statement
 
-IDE: Visual Studio Code
+For a GNU/Linux-based setup (adapted to Windows 11), implement object detection and instance segmentation using YOLOv8 via the Ultralytics package.
 
-Python Version: 3.12.3
+## Environment Setup
 
-Framework: YOLOv8 via Ultralytics package
+- Operating System: Windows 11  
+- IDE: Visual Studio Code  
+- Python Version: 3.12.3  
+- Framework: YOLOv8 via Ultralytics Python package  
 
-Implementation Approach
-1. Virtual Environment Creation
+## Implementation Approach
+
+### Virtual Environment Creation
+
 Created an isolated Python environment in VS Code to manage project dependencies without affecting the global Python installation.
 
-2. Package Installation
-Installed the ultralytics package using pip, which provides access to YOLOv8 models and functionality for both detection and segmentation tasks.
+### Package Installation
 
-3. Object Detection Implementation
-Model Used: YOLOv8l.pt (Large variant for high accuracy)
+Installed the required ultralytics package using pip.
 
-Process: Loaded pre-trained model and performed inference on test image
+## Object Detection Implementation
 
-Output Location: runs/detect/predict/
+- Model Used: yolov8l.pt (Large variant for high accuracy)
+- Process:
+  - Loaded the pre-trained detection model.
+  - Performed inference on a test image.
+- Results: Detected objects with bounding boxes, class labels, and confidence scores.
 
-Results: Successfully detected objects with bounding boxes, confidence scores, and class labels
+## Instance Segmentation Implementation
 
-4. Instance Segmentation Implementation
-Model Used: YOLOv8l-seg.pt (Large segmentation variant)
+- Model Used: yolov8l-seg.pt (Large segmentation variant)
+- Process:
+  - Applied the segmentation model to the same test image.
+- Results: Generated precise pixel-level object masks and boundaries.
 
-Process: Applied segmentation model to the same test image
+## Key Achievements
 
-Output Location: runs/segment/predict/
+- Successfully set up a YOLOv8 development environment.
+- Demonstrated both detection and segmentation on the same image.
+- Verified model performance on real-world image data.
+- Gained hands-on experience with the Ultralytics framework and YOLOv8 architecture.
 
-Results: Generated pixel-level object masks with precise object boundaries
+## Technologies Utilized
 
-Key Achievements
-✅ Successfully set up YOLOv8 development environment
+| Technology          | Purpose                                                      |
+|:--------------------|:-------------------------------------------------------------|
+| YOLOv8               | State-of-the-art object detection and segmentation framework |
+| Ultralytics          | Python package providing YOLOv8 implementation               |
+| Visual Studio Code   | Development environment with Python extension support        |
 
-✅ Demonstrated dual capability of detection and segmentation on same image
+## Learning Outcomes
 
-✅ Verified model performance on real-world image data
+- Understood computer vision model deployment workflows.
+- Gained experience with pre-trained model inference and result interpretation.
+- Developed knowledge of YOLOv8 model variants and their specific use cases.
 
-✅ Gained hands-on experience with Ultralytics framework and YOLOv8 architecture
+## Resources
 
-Technologies Utilized
-Technology	Purpose
-YOLOv8	: State-of-the-art object detection and segmentation framework
-Ultralytics	Python package providing YOLOv8 implementation
-Visual Studio Code	Development environment with Python extension support
-Learning Outcomes
-🎯 Understanding of computer vision model deployment workflows
-
-🎯 Experience with pre-trained model inference and result interpretation
-
-🎯 Knowledge of YOLOv8 model variants and their specific use cases
-
-🎯 Practical skills in environment setup and package management for AI projects
-
-Status: ✅ Completed Successfully
-
-This task established the foundation for advanced computer vision work and demonstrated successful integration of YOLOv8 capabilities for both object detection and instance segmentation applications.
+- [Ultralytics YOLOv8 Documentation](https://docs.ultralytics.com/)
