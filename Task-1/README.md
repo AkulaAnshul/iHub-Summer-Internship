@@ -1,3 +1,4 @@
+Task 1: YOLOv8 Object Detection and Instance Segmentation
 Problem Statement
 For GNU/Linux box: Create virtual environment, install ultralytics, and test installation with object detection and segmentation examples to verify the trained model can recognize objects and perform segmentation from online images.
 
@@ -36,26 +37,28 @@ Output Location: runs/segment/predict/
 Results: Generated pixel-level object masks with precise object boundaries
 
 Key Achievements
-Successfully set up YOLOv8 development environment
+✅ Successfully set up YOLOv8 development environment
 
-Demonstrated dual capability of detection and segmentation on same image
+✅ Demonstrated dual capability of detection and segmentation on same image
 
-Verified model performance on real-world image data
+✅ Verified model performance on real-world image data
 
-Gained hands-on experience with Ultralytics framework and YOLOv8 architecture
+✅ Gained hands-on experience with Ultralytics framework and YOLOv8 architecture
 
 Technologies Utilized
-YOLOv8: State-of-the-art object detection and segmentation framework
-Ultralytics: Python package providing YOLOv8 implementation
-Visual Studio Code: Development environment with Python extension support
-
+Technology	Purpose
+YOLOv8	: State-of-the-art object detection and segmentation framework
+Ultralytics	Python package providing YOLOv8 implementation
+Visual Studio Code	Development environment with Python extension support
 Learning Outcomes
-Understanding of computer vision model deployment workflows
+🎯 Understanding of computer vision model deployment workflows
 
-Experience with pre-trained model inference and result interpretation
+🎯 Experience with pre-trained model inference and result interpretation
 
-Knowledge of YOLOv8 model variants and their specific use cases
+🎯 Knowledge of YOLOv8 model variants and their specific use cases
 
-Practical skills in environment setup and package management for AI projects
+🎯 Practical skills in environment setup and package management for AI projects
+
+Status: ✅ Completed Successfully
 
 This task established the foundation for advanced computer vision work and demonstrated successful integration of YOLOv8 capabilities for both object detection and instance segmentation applications.
