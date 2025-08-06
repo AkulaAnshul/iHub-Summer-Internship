@@ -3,7 +3,7 @@ Problem Statement
 Design and implement a real-time system to detect and classify American Sign Language (ASL) alphabet hand signs using live webcam input. The solution should provide instant feedback and visualization to support both communication needs and educational use-cases.
 
 Implementation Approach
-1. Dataset Conceptualization
+1. Dataset Conceptualisation
 Domain Selection: Real-time ASL hand sign recognition for assistive communication and educational technology
 
 Objective: Develop a dataset covering the full ASL alphabet (A–Z)
@@ -21,7 +21,7 @@ Multiple lighting conditions (indoor, outdoor, artificial, natural)
 
 Varied backgrounds, hand sizes, orientations, and skin tones
 
-Quality Standards: High-resolution images optimized for object detection models
+Quality Standards: High-resolution images optimised for object detection models
 
 3. Class Definition and Taxonomy
 Class Structure:
